@@ -65,7 +65,7 @@ class SideBar extends React.Component {
                                     <NavLink to="/signup" onClick={() => this.mobile_nav_button()}>
                                         <i className="fas fa-pen-fancy"></i>
                                         Join now</NavLink>
-                                </li>
+                                </li>         
                                 <li>
                                     <NavLink to="/account-recovery" onClick={() => this.mobile_nav_button()}>
                                         <i className="fas fa-key"></i>
@@ -101,6 +101,11 @@ class SideBar extends React.Component {
                                         <i className="fas fa-user-circle"></i>
                                         Update Account</NavLink>
                                 </li>
+                                <li>
+                                    <NavLink to="/example" onClick={() => this.mobile_nav_button()}>
+                                        <i className="fas fa-pen-fancy"></i>
+                                        Example</NavLink>
+                                </li>  
                                 <li>
                                     <NavLink to="/signout" onClick={() => this.mobile_nav_button()}>
                                         <i className="fas fa-sign-out-alt"></i>

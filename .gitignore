@@ -4,4 +4,6 @@ build
 .DS_Store
 yarn-error.log
 package-lock.json
+now.json
+*.env
 /coverage/
